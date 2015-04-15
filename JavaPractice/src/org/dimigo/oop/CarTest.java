@@ -41,9 +41,15 @@ public class CarTest {
 		SM7.setMaxSpeed(200);
 		SM7.setPrice(38000000);
 */
-		Car2 Gene=new Car2("현대자동차","제네시스","검정색",255,50000000);
+		/*
+		 * Car2 Gene=new Car2("현대자동차","제네시스","검정색",255,50000000);
 		Car2 K7=new Car2("기아자동차","K7","흰색",246,40000000);
 		Car2 SM7=new Car2("삼성자동차","SM7","회색",200,38000000);
+		*/
+		
+		Car3 Gene=new Car3("현대자동차","제네시스","검정색",255,50000000);
+		Car3 K7=new Car3("기아자동차","K7","흰색",246);
+		Car3 SM7=new Car3("삼성자동차","SM7","회색");
 		
 		
 		System.out.println("<< 자동차 목록 >>");
