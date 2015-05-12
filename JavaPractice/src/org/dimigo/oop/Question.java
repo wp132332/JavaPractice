@@ -33,11 +33,11 @@ public class Question {
 		} else {
 			System.out.println("틀렸습니다 !! ㅠ");
 		}
-		
+
 		System.out.println("");
 		System.out.println("농구 포지션에서 1번을 맡는 역할은 ?");
 		answer = scanner.nextLine();
-		
+
 		if ("포인트가드".equalsIgnoreCase(answer)) {
 			System.out.println("정답입니다!! ^^");
 		} else {
@@ -52,5 +52,6 @@ public class Question {
 		} else {
 			System.out.println("틀렸습니다 !! ㅠ");
 		}
+		scanner.close();
 	}
 }
