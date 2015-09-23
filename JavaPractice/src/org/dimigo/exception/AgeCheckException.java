@@ -13,7 +13,7 @@ package org.dimigo.exception;
  * @author			: 조준희
  * @version			: 1.0
  */
-public class AgeCheckException extends Exception {
+public class AgeCheckException extends Exception{
 	/**
 	 * 
 	 */
