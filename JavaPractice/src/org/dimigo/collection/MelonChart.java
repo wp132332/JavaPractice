@@ -26,17 +26,21 @@ public class MelonChart {
 		list.add(new Music("취향저격", "iKON"));
 
 		printList(list);
+		System.out.println();
 		// 2위곡 추가
 		System.out.println("--<< 2위곡 추가 >>--");
 		list.add(1, new Music("레옹", "이유갓지"));
 		printList(list);
+		System.out.println();
 		System.out.println("--<< 3위곡 변경>>--");
 		list.set(2, new Music("맙소사", "황태지"));
 		// 3위곡 변경 - 맙소사 황태지
 		printList(list);
+		System.out.println();
 		System.out.println("--<< 4위곡 삭제>>--");
 		list.remove(list.size() - 1);
 		printList(list);
+		System.out.println();
 		// 4위곡 삭제
 	}
 
