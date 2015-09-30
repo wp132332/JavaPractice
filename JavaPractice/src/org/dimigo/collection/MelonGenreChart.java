@@ -38,7 +38,7 @@ public class MelonGenreChart {
 		System.out.println("------ << 멜론 장르별 차트 >> ------");
 		printMap(map);
 		System.out.println("------ << 발라드 3위 곡 변경 >> ------");
-		balad.set(2,new Music("지우고 지워도","차수"));
+		balad.set(2,new Music("지우고 지워도","차수경"));
 		map.put("발라드", balad);
 		printMap(map);
 		System.out.println("------ << 발라드 1위 곡 삭제 >> ------");
