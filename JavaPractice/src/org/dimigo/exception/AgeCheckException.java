@@ -13,7 +13,7 @@ package org.dimigo.exception;
  * @author			: 조준희
  * @version			: 1.0
  */
-public class AgeCheckException extends Exception{
+public class AgeCheckException extends Exception {
 	/**
 	 * 
 	 */
@@ -22,7 +22,7 @@ public class AgeCheckException extends Exception{
 	}
 
 	public AgeCheckException(Movie movie) {
-		super(movie.getTitle()+"은/는 "+movie.getLimitAge()+"세 이상 관람가 입니다.");
+		super(movie.getTitle() + "은/는 " + movie.getLimitAge() + "세 이상 관람가 입니다.");
 	}
 
 }
