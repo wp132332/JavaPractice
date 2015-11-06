@@ -34,7 +34,7 @@ public class Runner extends Thread {
 		int cnt = 110;
 		System.out.println(name + " 출발");
 		System.out.println("");
-		while ((cnt -= 10) > 0) {
+		while ((cnt -= 10) >= 0) {
 			System.out.println(name + " " + cnt + " 미터");
 			System.out.println("");
 			try {
